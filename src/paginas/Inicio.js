@@ -13,6 +13,9 @@ function Inicio() {
 	</header>
 	
 		
+		<NavLink className={({isActive}) => isActive ? "activo" : "negro"}to='/ahorcadito'>
+		<button id="jugarInicio"> Ahorcadito</button>
+		< /NavLink>
 		<NavLink className={({isActive}) => isActive ? "activo" : "negro"}to='/arkanoid'>
 		<button id="jugarInicio"> Arkanoid</button>
 		< /NavLink>

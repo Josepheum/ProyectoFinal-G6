@@ -10,6 +10,9 @@ export default function Navegador() {
 			<NavLink className={({isActive}) => isActive ? "active" : "white"}to='/'>Inicio< /NavLink>
 	</div>
 	<div className="item">
+			<NavLink className={({isActive}) => isActive ? "activo" : "white"}to='/ahorcadito'>Ahorcadito< /NavLink>
+	</div>
+	<div className="item">
 			<NavLink className={({isActive}) => isActive ? "active" : "white"}to='/arkanoid'>Arkanoid< /NavLink>		
     </div>
 	

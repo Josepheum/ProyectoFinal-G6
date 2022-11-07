@@ -4,6 +4,8 @@ import './Inicio.css';
 import {BrowserRouter,Routes, Route} from "react-router-dom";
 import Arkanoid from './paginas/Arkanoid/Juego.js'
 import Dude from './paginas/Dude/Dude.js'
+import Ahorcadito from './paginas/Ahorcadito/Juego.js'
+
 
 
 import Inicio from './paginas/Inicio.js'
@@ -22,6 +24,8 @@ export default function Portal() {
 			<Route path='/integrantes' element={<Integrantes />}/>
 			<Route path='/arkanoid' element={<Arkanoid />}/>
 			<Route path='/dude' element={<Dude />}/>
+			<Route path='/ahorcadito' element={<Ahorcadito />}/>
+
 			
 			<Route path='*' element={<Error404/>}></Route>
         </Routes>
