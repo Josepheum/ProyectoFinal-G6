@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import {NavLink} from 'react-router-dom';
 
 import './Inicio.css';

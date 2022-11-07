@@ -10,11 +10,9 @@ export default function Navegador() {
 			<NavLink className={({isActive}) => isActive ? "active" : "white"}to='/'>Inicio< /NavLink>
 	</div>
 	<div className="item">
-			<NavLink className={({isActive}) => isActive ? "active" : "white"}to='/arkanoid'>Juego< /NavLink>		
+			<NavLink className={({isActive}) => isActive ? "active" : "white"}to='/arkanoid'>Arkanoid< /NavLink>		
     </div>
-	<div className="item">
-			<NavLink className={({isActive}) => isActive ? "activo" : "white"}to='/integrantes'>Integrantes< /NavLink>
-	</div>
+	
 	<div className="item">
 			<NavLink className={({isActive}) => isActive ? "activo" : "white"}to='/dude'>Dude< /NavLink>
 	</div>
@@ -23,6 +21,9 @@ export default function Navegador() {
 	</div>
 	<div className="item">
 			<NavLink className={({isActive}) => isActive ? "activo" : "white"}to='/integrantes'>JuegoReact< /NavLink>
+	</div>
+	<div className="item">
+			<NavLink className={({isActive}) => isActive ? "activo" : "white"}to='/integrantes'>Integrantes< /NavLink>
 	</div>
   </div>
   

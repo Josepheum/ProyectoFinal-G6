@@ -55,7 +55,7 @@ class Escena extends Phaser.Scene{
 		/* carga de imágenes*/
 	preload ()
     {
-        this.load.image('cielo', 'componentes/accesorios/cielo.png');
+        this.load.image('cielo', 'accesorios/cielo.png');
         this.load.image('estrella', 'accesorios/estrella.png');
         this.load.image('plataforma','accesorios/plataforma.png');
         this.load.image('bomba','accesorios/bomba.png');
